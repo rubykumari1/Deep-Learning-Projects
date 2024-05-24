@@ -50,12 +50,12 @@ The dataset can be downloaded and loaded using PyTorch's `torchvision.datasets` 
 git clone https://github.com/your-github-username/Deep-Learning-Projects.git
 cd Deep-Learning-Projects
 
-### 2. Install required libraries
+2.Install required libraries
 pip install torch torchvision matplotlib scikit-learn
 
 jupyter notebook DL_Group6_FashionMnist_DeepLearning_NeuralNet.ipynb
 
-### Running the Project
+3. Running the Project
 jupyter notebook DL_Group6_FashionMnist_DeepLearning_NeuralNet.ipynb
 
 * Download and Load the Fashion MNIST Dataset
@@ -67,18 +67,19 @@ jupyter notebook DL_Group6_FashionMnist_DeepLearning_NeuralNet.ipynb
     * Validation set: 20% of the original dataset.
     * Test set: 10,000 images from the test dataset.
 
-2. **Training the CNN Model**
-* Feature Extraction
+2. Training the CNN Model
+   Feature Extraction
     * Train the CNN model for feature extraction from the images.
     * Save the extracted features for later use with the MLP.
-3. **Training the MLP Model**
+
+## Training the modules
 * Using Extracted Features
     * Use the features extracted by the CNN to train the MLP model.
     * The MLP model is implemented from scratch, including the forward pass, backward pass, and loss computation.
-* **Hyperparameter Research**
+Hyperparameter Research
     * Experiment with different hyperparameters like learning rate, number of hidden units, and dropout rates to achieve the best performance.
     * The model uses custom weight initialization methods like He initialization for better training efficiency.
-4. **Visualization**
+4. Visualization
 * Training and Validation Losses
     * Plot the training and validation loss curves over epochs to observe the training process.
 * Training and Validation Accuracies
@@ -90,17 +91,17 @@ jupyter notebook DL_Group6_FashionMnist_DeepLearning_NeuralNet.ipynb
 **Results and Visualization**
 
 
-The final results include:
+## Final results includess:
 * Classification Accuracy: Overall accuracy on the test dataset.
 * Loss Values: Training and validation losses over epochs.
 * Confusion Matrix: Shows the true vs. predicted labels for the test dataset.
 * Classification Report: Precision, recall, and F1-score for each class.
 * Sample Predictions: Visualization of model predictions on sample test images.
 
-**### Acknowledgements**
+## Acknowledgements
 This project uses the Fashion MNIST dataset provided by Zalando Research and leverages PyTorch for deep learning implementations. Special thanks to the PyTorch and scikit-learn communities for their valuable libraries and tools.
 
-**### Contributors**
+## Contributors
 * Ruby Kumari - email - rubykumari23@iitk.ac.in - github ->  @rubykumari1
 * Rupak Kumar Roy  email - rupakroy23@iitk.ac.in 
 * Rahul Deval email - rahuldeval23@iitk.ac.in
@@ -108,6 +109,6 @@ This project uses the Fashion MNIST dataset provided by Zalando Research and lev
 * Rakesh Ranjan email - rrakesh23@iitk.ac.in 
 
 
-**### License**
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
