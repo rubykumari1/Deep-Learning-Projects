@@ -53,7 +53,7 @@ pip install torch torchvision matplotlib scikit-learn
 
 ## Running the Project
 ```bash
-jupyter notebook DL_Group6_FashionMnist_DeepLearning_NeuralNet.ipynb
+jupyter notebook DLGroup6_FashionMnist.ipynb
 
 [Results and Visualization](#results-and-visualization)
 We getting Test accuracy upto 93%
@@ -69,6 +69,6 @@ Sandeep Kumar sandeepkr23@iitk.ac.in
 Rakesh Ranjan rrakesh23@iitk.ac.in  
 
 
-## License
+## License - 
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is not licensed - It is an assignment project- Not to be copied,with whom this link has not beeen shared.
