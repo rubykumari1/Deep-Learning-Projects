@@ -51,7 +51,8 @@ git clone https://github.com/your-github-username/Deep-Learning-Projects.git
 cd Deep-Learning-Projects
 pip install torch torchvision matplotlib scikit-learn
 
-## Running the project
+## Running the Project
+```bash
 jupyter notebook DL_Group6_FashionMnist_DeepLearning_NeuralNet.ipynb
 
 [Results and Visualization](#results-and-visualization)
