@@ -59,7 +59,7 @@ jupyter notebook DLGroup6_FashionMnist.ipynb
 We getting Test accuracy upto 93%
 
 ## Acknowledgements
-this project uses the Fashion MNIST dataset provided by Zalando Research and leverages PyTorch for deep learning implementations. Special thanks to the PyTorch and scikit-learn communities for their valuable libraries and tool
+this project uses the Fashion MNIST dataset provided by Zalando Research and leverages PyTorch - for deep learning implementations. Special thanks to the PyTorch and scikit-learn communities for their valuable libraries and tool
 
 ## Contributors
 Ruby Kumari rubykumari23@iitk.ac.in
