@@ -6,12 +6,12 @@ This project involves building and training a Convolutional Neural Network (CNN)
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
-- [Setup Instructions](#setup-instructions)
-- [Running the Project](#running-the-project)
-- [Results and Visualization](#results-and-visualization)
 - [Acknowledgements](#acknowledgements)
 - [Contributors](#contributors)
 - [License](#license)
+- [Setup Instructions](#setup-instructions)
+- [Running the Project](#running-the-project)
+- [Results and Visualization](#results-and-visualization)
 
 ## Introduction
 The goal of this project is to accurately classify images of clothing items into one of the 10 categories provided by the Fashion MNIST dataset. The project involves:
@@ -25,6 +25,20 @@ The Fashion MNIST dataset consists of 70,000 grayscale images in 10 categories, 
 - Test set: 10,000 images
 
 The dataset can be downloaded and loaded using PyTorch's `torchvision.datasets` module.
+## Acknowledgements
+This project uses the Fashion MNIST dataset provided by Zalando Research and leverages PyTorch for deep learning implementations. Special thanks to the PyTorch and scikit-learn communities for their valuable libraries and tools.
+
+## Contributors
+
+Ruby Kumari rubykumari23@iitk.ac.in
+Rupak Kumar Roy rupakroy23@iitk.ac.in 
+Rahul Deval rahuldeval23@iitk.ac.in 
+Sandeep Kumar sandeepkr23@iitk.ac.in
+Rakesh Ranjan rrakesh23@iitk.ac.i
+
+## License 
+
+ Group6 project - GL- This project is not licensed - It is an assignment project- Not to be copied,with whom this link has not beeen shared.
 
 ## Model Architecture
 ### Multilayer Perceptron (MLP - functions built from scratch)
@@ -51,24 +65,16 @@ git clone https://github.com/your-github-username/Deep-Learning-Projects.git
 cd Deep-Learning-Projects
 pip install torch torchvision matplotlib scikit-learn
 
-## Running the Project
-```bash
+
+## Running the code 
 jupyter notebook DLGroup6_FashionMnist.ipynb
 
-[Results and Visualization](#results-and-visualization)
-We getting Test accuracy upto 93%
+## Results and Visualization
 
-## Acknowledgements
-this project uses the Fashion MNIST dataset provided by Zalando Research and leverages PyTorch - for deep learning implementations. Special thanks to the PyTorch and scikit-learn communities for their valuable libraries and tool
-
-## Contributors
-Ruby Kumari rubykumari23@iitk.ac.in
-Rupak Kumar Roy rupakroy23@iitk.ac.in 
-Rahul Deval rahuldeval23@iitk.ac.in 
-Sandeep Kumar sandeepkr23@iitk.ac.in
-Rakesh Ranjan rrakesh23@iitk.ac.in  
+We are getting test accuracy up to 93%.
 
 
-## License - 
 
-This project is not licensed - It is an assignment project- Not to be copied,with whom this link has not beeen shared.
+
+
+
